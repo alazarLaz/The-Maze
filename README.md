@@ -1,8 +1,6 @@
 # The Maze
 
-The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
-
-The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 22.04.1 LTS - gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04)
+The Maze is a game that presents a 3D maze to players, achieved through ray casting techniques that render a 2D map into a navigable 3D environment. It was developed using the SDL2 library and coded in C, with the development process conducted on Ubuntu 22.04.1 LTS and utilizing gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04).
 
 ### About SDL2 
 
@@ -13,17 +11,14 @@ Simple DirectMedia Layer is a cross-platform development library designed to pro
 $ git clone https://github.com/alazarlaz/The-Maze.git
 ```
 ## Usage 
-* Execute ./maze or type make run 
-* Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
-* Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
-
+Run the game by executing "./maze" or by typing "make run" in the terminal.
+Move forward and backward in the maze using the up and down arrow keys. Alternatively, you can use the w and s keys to perform the same function.
+Turn the camera around by using the right and left arrow keys. Similarly, you can use the d and a keys to rotate the camera.
 ## Compilation
 ```sh
 $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 ```
 
-## Flowchart
-![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
 
 ## Demo
 [![The Maze Demo](https://i.imgur.com/5Ss7s1S.png)](https://youtu.be/PY_Pi7YuLkQ)
